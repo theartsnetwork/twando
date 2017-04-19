@@ -8,10 +8,10 @@ http://www.twando.com/
 Database credentials
 */
 
-define('DB_NAME','');
-define('DB_USER','');
-define('DB_PASSWORD','');
-define('DB_HOST','localhost');
+define('DB_NAME','twando');
+define('DB_USER','adminXfX4aRU');
+define('DB_PASSWORD','pJA6iX_AsEGH');
+define('DB_HOST','mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/');
 define('DB_PREFIX','tw_');
 
 /*
@@ -45,7 +45,6 @@ commented out and the script will try and work it out for you, but it's better
 to specify this if possible
 */
 
-//define('BASE_LINK_URL','http://www.yoursite.com/twando/');
-
+define('BASE_LINK_URL','http://twando-wowabilityx.rhcloud.com/');
 
 ?>
